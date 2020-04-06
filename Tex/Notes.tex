@@ -1,0 +1,38 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=20mm,
+	top=20mm,
+}
+
+\author{MBA}
+\title{First Arduino Project }
+
+\begin{document}
+	\maketitle
+	\section{Introduction}
+	
+	The goal of this document is the introduction to Arduino, GIT and GITHUB usages basics. Each project will be commited to github in order to control versions and aquire the needed skills for project development.
+	
+	\section{Project }
+	
+	It consists on three leds connected via a 220 $\Omega$ resistor to Arduino digital pins. A push button is connected between the ground ,5V output and an analogpin; which will be used as input pin. \\
+	
+	The idea will go as follows : 
+	
+	\begin{enumerate}
+		\item The input pin will be used to read the voltage.
+			\begin{itemize}
+				\item Depending on the switch state, action will be made to switch on or off the Leds 
+			\end{itemize}
+	\end{enumerate}
+	
+\end{document}
